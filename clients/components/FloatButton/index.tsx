@@ -41,10 +41,7 @@ const FloatButton: NextPage = () => {
             color="#fff"
           />
         </a>
-        <a
-          className="fab-action fab-action-4"
-          onClick={() => router.push("/register")}
-        >
+        <a className="fab-action fab-action-4" onClick={() => router.push("/")}>
           <FontAwesomeIcon
             icon={faUserPlus}
             className="btn-like"
