@@ -40,6 +40,7 @@ export const RightSide = styled.div`
   @media only screen and (max-width: 1300px) {
     width: 100%;
   }
+  box-sizing: border-box;
 `;
 export const Title = styled.h2`
   color: #aaa;

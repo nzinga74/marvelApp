@@ -37,6 +37,7 @@ export const LeftSide = styled.div`
 export const RightSide = styled.div`
   width: 60%;
   padding: 80px;
+  box-sizing: border-box;
   @media only screen and (max-width: 1300px) {
     width: 100%;
   }
